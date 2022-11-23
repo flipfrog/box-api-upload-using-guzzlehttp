@@ -7,3 +7,8 @@
 - copy access token to clip board from the app's configuration screen.
 - edit `./config/box.php` with copied access token.
 - run `php test.php` to copy `./data/test.txt` to Box root folder.
+### Relevant Blog article.
+
+I wrote a blog article about this repository.
+
+[https://unknownspace.hatenablog.com/entry/box-api-upload-using-guzzlehttp](https://unknownspace.hatenablog.com/entry/box-api-upload-using-guzzlehttp)
