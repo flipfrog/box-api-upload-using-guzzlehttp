@@ -6,4 +6,4 @@
     - If not, make the scope checked and save the app configuration.
 - copy access token to clip board from the app's configuration screen.
 - edit `./config/box.php` with copied access token.
-- run `php test.ph` to copy `./data/test.txt` to Box root folder.
+- run `php test.php` to copy `./data/test.txt` to Box root folder.
