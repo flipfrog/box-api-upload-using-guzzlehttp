@@ -22,6 +22,7 @@
             [
                 'name' => 'file',
                 'contents' => \GuzzleHttp\Psr7\Utils::tryFopen('./data/test.txt', 'rb'),
+                'filename' => 'my_test.txt'
             ],
         ],
 ```
