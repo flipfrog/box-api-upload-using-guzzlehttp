@@ -9,6 +9,23 @@
 - run `php test.php` to copy `./data/test.txt` to Box root folder.
 ### Relevant Blog article.
 
-I wrote a blog article about this repository.
+### Alternatively it's ok of multipart block
+```php
+        'multipart' => [
+            [
+                'name' => 'attributes',
+                'contents' => json_encode([
+                    'name' => 'my_test.txt',
+                    'parent' => ['id' => 0],
+                ]),
+            ],
+            [
+                'name' => 'file',
+                'contents' => \GuzzleHttp\Psr7\Utils::tryFopen('./data/test.txt', 'rb'),
+            ],
+        ],
+```
+
+### I wrote a blog article about this repository.
 
 [https://unknownspace.hatenablog.com/entry/box-api-upload-using-guzzlehttp](https://unknownspace.hatenablog.com/entry/box-api-upload-using-guzzlehttp)
