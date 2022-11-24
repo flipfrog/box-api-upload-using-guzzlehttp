@@ -9,7 +9,7 @@
 - run `php test.php` to copy `./data/test.txt` to Box root folder.
 ### Relevant Blog article.
 
-### Alternatively it's ok of multipart block
+### Alternatively it's ok of bellow multipart block
 ```php
         'multipart' => [
             [
